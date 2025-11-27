@@ -2,12 +2,13 @@ import Spline from '@splinetool/react-spline/next';
 
 export default function Home() {
   return (
-    <main>
-      <div className='h-120 w-120'>
+    <div className='z-1 relative'>
+      <div className='h-120 w-120 z-20'>
       <Spline
-        scene="https://prod.spline.design/EC0u9YUH5viaINhA/scene.splinecode" 
+        scene="https://prod.spline.design/EC0u9YUH5viaINhA/scene.splinecode"
+        className='z-20' 
       />
       </div>
-    </main>
+    </div>
   );
 }
