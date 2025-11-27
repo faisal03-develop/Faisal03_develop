@@ -10,7 +10,7 @@ export default function hero() {
           <button className="border bborder-solid border-violet-500 w-[148px] h-[37px] mt-6">Contact Me !!</button>
         </div>
         <div className="max-h-[469px] max-w-[386px]">
-          <Image src="/icons/OutlineLogo.svg" alt="Logo" height={155} width={155} className="z-0"/>
+          {/* <Image src="/icons/OutlineLogo.svg" alt="Logo" height={155} width={155} className="z-0"/> */}
           <Laptop />
           {/* <Image src="/icons/Dots.svg" alt="Logo" height={84} width={84}/> */}
 
