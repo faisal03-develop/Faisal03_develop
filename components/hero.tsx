@@ -7,7 +7,7 @@ export default function hero() {
         <div className="max-w-[537px] max-h-[227px] flex flex-col ">
           <p className="font-semibold text-3xl">Faisal is a <span className="text-(--primary)">Web Developer</span> expert in <span className="text-(--primary)">NextJs</span> & <span className="text-(--primary)">MERN Stack</span></p>
           <p className="text-(--gray) text-base mt-8">He crafts responsive websites where technologies meet creativity</p>
-          <button className="border bborder-solid border-violet-500 w-[148px] h-[37px] mt-6">Contact Me !!</button>
+          <button className="border bborder-solid border-violet-500 w-[152px] h-[37px] mt-6">Contact <span className="text-(--primary)">Me</span> !!!</button>
         </div>
         <div className="max-h-[469px] max-w-[386px]">
           {/* <Image src="/icons/OutlineLogo.svg" alt="Logo" height={155} width={155} className="z-0"/> */}
