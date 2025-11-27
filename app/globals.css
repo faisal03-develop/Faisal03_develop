@@ -4,6 +4,7 @@
   --background: #1E1E1E;
   --foreground: #fff;
   --primary: #C778DD;
+  --gray: #ABB2BF;
 }
 
 @theme inline {
