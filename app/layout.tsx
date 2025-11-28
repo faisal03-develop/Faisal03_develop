@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Fira_Code } from 'next/font/google'
+import ClickSpark from '../components/ClickSpark';
+
 
 const firaCode = Fira_Code({
   variable: '--font-firaCode',
@@ -24,11 +26,20 @@ export default function RootLayout({
   return (
     
     <html lang="en" className={firaCode.className}>
+
+      <ClickSpark
+        sparkColor='#fff'
+        sparkSize={10}
+        sparkRadius={15}
+        sparkCount={8}
+        duration={400}
+      >
         <body
           className={`${firaCode.variable} ${firaCode.variable} antialiased`}
         >
           {children}
         </body>
+        </ClickSpark>
     </html>
   );
 }

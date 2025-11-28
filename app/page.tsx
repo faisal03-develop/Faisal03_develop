@@ -4,6 +4,9 @@ import Hero from "@/components/hero"
 import Sides from "@/components/sides"
 import Quote from "@/components/quote"
 import Projects from "@/components/projects"
+import Skills from "@/components/skills"
+
+
 
 function page() {
   return (
@@ -15,6 +18,9 @@ function page() {
           <Quote />
           <Sides />
           <Projects />
+          <Skills />
+
+          {/* https://reactbits.dev/components/profile-card */}
       </div>
     </div>
 
