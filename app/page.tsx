@@ -1,5 +1,4 @@
 import Header from "@/components/header"
-import { Container } from "@mui/material"
 import Hanging from "@/components/hanging"
 import Hero from "@/components/hero"
 import Sides from "@/components/sides"
@@ -8,7 +7,7 @@ import Projects from "@/components/projects"
 
 function page() {
   return (
-    <Container>
+    <div className="mx-auto max-w-screen-lg px-4">
       <div className="bg-background">
           <Hanging />
           <Header />
@@ -17,7 +16,8 @@ function page() {
           <Sides />
           <Projects />
       </div>
-    </Container>
+    </div>
+
   )
 }
 

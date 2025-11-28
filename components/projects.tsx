@@ -30,7 +30,7 @@ export default function projects() {
                         <p className="text-xl my-4">Primal Zone</p>
                         <Image src="/images/primalzone.png" alt="primal-zone" height={200} width={330} />
                         <p className="text-(--gray) text-sm py-3">Stack: NextJs, NodeJs, ExpressJs, PostGreSQL</p>
-                        <button className="my-3 w-75">Visit Site</button>
+                        <button className="my-3 w-75 cursor-pointer">Visit Site</button>
                     </div>
                     </Link>
                 </ElectricBorder>
@@ -50,7 +50,7 @@ export default function projects() {
                         <p className="text-xl my-4">Resumind</p>
                         <Image src="/images/resumin.png" alt="Resumind" height={200} width={330} />
                         <p className="text-(--gray) text-sm py-3">Stack: NextJs, NodeJs, ExpressJs, PostGreSQL</p>
-                        <button className="my-3 w-75">Visit Site</button>
+                        <button className="my-3 w-75 cursor-pointer">Visit Site</button>
                     </div>
                     </Link>
                 </ElectricBorder>
@@ -70,7 +70,7 @@ export default function projects() {
                         <p className="text-xl my-4">Primal Zone</p>
                         <Image src="/images/typing-tutor.png" alt="primal-zone" height={200} width={330} />
                         <p className="text-(--gray) text-sm py-3">Stack: NextJs, NodeJs, ExpressJs, PostGreSQL</p>
-                        <button className="my-3 w-75">Visit Site</button>
+                        <button className="my-3 w-75 cursor-pointer">Visit Site</button>
 
                     </div>
                     </Link>
