@@ -2,13 +2,12 @@ import Image from "next/image"
 import Link from "next/link"
 import ElectricBorder from './ElectricBorder'
 
-
 export default function projects() {
   return (
     <div className="mt-30 font-(family-name:--font-firaCode)">
         <div className="flex flex-row justify-between mr-4">
             <div className="flex flex-row justify-center items-center text max-w-[701px] max-h-10 text-3xl">
-                <h2><span className="text-primary)">#</span>Projects</h2>
+                <h2><span className="text-primary)">    #</span>Projects</h2>
                 <Image src="/icons/line7.svg" alt="line" width={711} height={1} className="ml-4"/>
             </div>
             <div>
@@ -30,7 +29,8 @@ export default function projects() {
                     <div className="p-4">
                         <p className="text-xl my-3 mt-4">Primal Zone</p>
                         <Image src="/images/primalzone.png" alt="primal-zone" height={200} width={330} />
-                        <p className="text-(--gray) text-base text-sm py-3">Stack: NextJs, NodeJs, ExpressJs, PostGreSQL</p>
+                        <p className="text-(--gray) text-sm py-3">Stack: NextJs, NodeJs, ExpressJs, PostGreSQL</p>
+                        <button className="my-3 w-75">Visit Site</button>
                     </div>
                     </Link>
                 </ElectricBorder>
@@ -49,7 +49,8 @@ export default function projects() {
                     <div className="p-4">
                         <p className="text-xl my-3 mt-4">Resumind</p>
                         <Image src="/images/resumin.png" alt="Resumind" height={200} width={330} />
-                        <p className="text-(--gray) text-base text-sm py-3">Stack: NextJs, NodeJs, ExpressJs, PostGreSQL</p>
+                        <p className="text-(--gray) text-sm py-3">Stack: NextJs, NodeJs, ExpressJs, PostGreSQL</p>
+                        <button className="my-3 w-75">Visit Site</button>
                     </div>
                     </Link>
                 </ElectricBorder>
@@ -68,7 +69,9 @@ export default function projects() {
                     <div className="p-4">
                         <p className="text-xl my-3 mt-4">Primal Zone</p>
                         <Image src="/images/typing-tutor.png" alt="primal-zone" height={200} width={330} />
-                        <p className="text-(--gray) text-base text-sm py-3">Stack: NextJs, NodeJs, ExpressJs, PostGreSQL</p>
+                        <p className="text-(--gray) text-sm py-3">Stack: NextJs, NodeJs, ExpressJs, PostGreSQL</p>
+                        <button className="my-3 w-75">Visit Site</button>
+
                     </div>
                     </Link>
                 </ElectricBorder>
@@ -83,3 +86,5 @@ export default function projects() {
 // resumind:  https://ai-resume-checker-dusky.vercel.app/
 // Primal Zone:  https://primal-zoneclone.vercel.app/
 // Typing Tutor:  https://typing-tutor-nine.vercel.app/
+
+

@@ -22,12 +22,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+    
     <html lang="en" className={firaCode.className}>
-      <body
-        className={`${firaCode.variable} ${firaCode.variable} antialiased`}
-      >
-        {children}
-      </body>
+        <body
+          className={`${firaCode.variable} ${firaCode.variable} antialiased`}
+        >
+          {children}
+        </body>
     </html>
   );
 }
