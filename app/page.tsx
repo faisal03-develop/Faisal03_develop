@@ -4,6 +4,7 @@ import Hanging from "@/components/hanging"
 import Hero from "@/components/hero"
 import Sides from "@/components/sides"
 import Quote from "@/components/quote"
+import Projects from "@/components/projects"
 
 function page() {
   return (
@@ -14,6 +15,7 @@ function page() {
           <Hero />
           <Quote />
           <Sides />
+          <Projects />
       </div>
     </Container>
   )
