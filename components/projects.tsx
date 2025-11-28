@@ -1,5 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
+import ElectricBorder from './ElectricBorder'
+
 
 export default function projects() {
   return (
@@ -13,6 +15,23 @@ export default function projects() {
                 <Link href="#">view all ~~&gt;</Link>
             </div>
         </div>
+        <div className="w-80">
+            <ElectricBorder
+                color="#7df9ff"
+                speed={1}
+                chaos={0.5}
+                thickness={2}
+                style={{ borderRadius: 16 }}
+                >
+                <div>
+                    
+                </div>
+            </ElectricBorder>
+        </div>
     </div>
   )
 }
+
+
+
+// resumind:  https://ai-resume-checker-dusky.vercel.app/
