@@ -15,7 +15,7 @@ export default function hero() {
           cursorCharacter="|"
         />
           <p className="text-(--gray) text-base mt-10">He crafts responsive websites where technologies meet creativity</p>
-          <button className="border-2 bborder-solid border-primary) w-[152px] h-[37px] mt-6">Contact <span className="text-primary)">Me</span> !!!</button>
+          <button className="border-2 bborder-solid border-primary) w-[152px] h-[37px] mt-6">Contact <span className="text-(--purple)">Me</span> !!!</button>
         </div>
         <div className="max-h-[469px] max-w-[386px] relative" >
           <Image src="/icons/OutlineLogo.svg" alt="Logo" height={155} width={155} className="absolute"/>
