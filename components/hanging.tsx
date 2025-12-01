@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export default function hanging() {
   return (
-    <div className="w-8 h-[250px] absolute top-0 left-[60px] flex flex-col items-center">
+    <div className="w-8 h-[250px] absolute top-0 left-[60px] flex flex-col items-center md:hidden">
         <Image src="/icons/Line10.svg" alt="Logo" width={1} height={191} />
         <div className="mt-2 flex flex-col gap-2">
             <Link href="https://github.com/faisal03-develop">
