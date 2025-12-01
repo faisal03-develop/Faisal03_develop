@@ -17,8 +17,7 @@ const imageLogos = [
 
 export default function App() {
   return (
-    <div style={{ height: '200px', position: 'relative', overflow: 'hidden'}}>
-      {/* Basic horizontal loop */}
+    <div style={{ height: '150px', position: 'relative', overflow: 'hidden'}}>
       <LogoLoop
         logos={imageLogos}
         speed={120}

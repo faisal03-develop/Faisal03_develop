@@ -20,7 +20,7 @@ export default function skills() {
             <p className="text-(--gray) text-sm">Visual Studio, VS Code, MySQL Server, MONGODB, Git, Github, POSTMAN, Stripe, Clerk...</p>
           </div>
         </div>
-        <div className="py-8">
+        <div className="pt-8">
             <Logolog />
         </div>
     </div>

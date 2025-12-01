@@ -5,7 +5,7 @@ import Sides from "@/components/sides"
 import Quote from "@/components/quote"
 import Projects from "@/components/projects"
 import Skills from "@/components/skills"
-
+import About from "@/components/about"
 
 
 function page() {
@@ -19,7 +19,7 @@ function page() {
           <Sides />
           <Projects />
           <Skills />
-
+          <About />
           {/* https://reactbits.dev/components/profile-card */}
       </div>
     </div>
