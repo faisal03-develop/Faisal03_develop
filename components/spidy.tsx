@@ -3,11 +3,11 @@ import Spline from '@splinetool/react-spline/next';
 export default function Home() {
   return (
     <main>
-        <div className='h-[400px]'>
+      <div className='h-[700px] w-[700px]'>
       <Spline
-        scene="https://prod.spline.design/pUb4fJmWeFhOTqwO/scene.splinecode" 
+        scene="https://prod.spline.design/nD1PzlwPGO37154V/scene.splinecode" 
       />
-        </div>
+      </div>
     </main>
   );
 }

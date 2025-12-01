@@ -10,8 +10,8 @@ export default function about() {
             <Image src="/icons/line7.svg" alt="line" width={520} height={1} className="ml-4"/>
         </div>
         <div className="flex flex-row justify-between">
-            <div className="max-w-[515px] mt-8 text-(--gray)">
-                <p>Hello, i’m Elias!
+            <div className="max-w-[315px] mt-8 text-(--gray)">
+                <p>Hello, i’m Faisal!
                     <br />
                     <br />
                         I’m a front-end developer based in Lahore, Pakistan. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences. 
