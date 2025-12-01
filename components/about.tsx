@@ -1,6 +1,6 @@
 
 import Image from "next/image"
-
+import Spidy from "./spidy"
 
 export default function about() {
   return (
@@ -9,19 +9,19 @@ export default function about() {
             <p className="max-w-[250px]"><span className="text-(--primary)">#</span>About Me</p>
             <Image src="/icons/line7.svg" alt="line" width={520} height={1} className="ml-4"/>
         </div>
-        <div>
-
-        <div className="max-w-[515px] mt-8 text-(--gray)">
-            <p>Hello, i’m Elias!
-                <br />
-                <br />
-                    I’m a front-end developer based in Lahore, Pakistan. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences. 
-                <br />
-                <br />
-                    Transforming my creativity and knowledge into a websites has been my passion for over two years. I have been helping various clients to establish their presence online. I always strive to learn about the newest technologies and frameworks.</p>
-            </div>
-            <div>
-            </div>
+        <div className="flex flex-row justify-between">
+            <div className="max-w-[515px] mt-8 text-(--gray)">
+                <p>Hello, i’m Elias!
+                    <br />
+                    <br />
+                        I’m a front-end developer based in Lahore, Pakistan. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences. 
+                    <br />
+                    <br />
+                        Transforming my creativity and knowledge into a websites has been my passion for over two years. I have been helping various clients to establish their presence online. I always strive to learn about the newest technologies and frameworks.</p>
+                </div>
+                <div>  
+                    <Spidy />
+                </div>
         </div>
 
     </div>
