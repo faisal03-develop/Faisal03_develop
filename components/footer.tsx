@@ -24,6 +24,9 @@ export default function footer() {
                 </div>
             </div>
         </div>
+        <div>
+            <p className="text-sm text-(--gray) text-center pb-4">&copy; Copyright 2025, Made with 💜 by Faisal.</p>
+        </div>
     </div>
   )
 }
