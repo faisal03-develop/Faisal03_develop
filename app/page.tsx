@@ -6,6 +6,8 @@ import Quote from "@/components/quote"
 import Projects from "@/components/projects"
 import Skills from "@/components/skills"
 import About from "@/components/about"
+import Contact from "@/components/contact"
+import Footer from '@/components/footer'
 
 
 function page() {
@@ -20,7 +22,8 @@ function page() {
           <Projects />
           <Skills />
           <About />
-          {/* https://reactbits.dev/components/profile-card */}
+          <Contact />
+          <Footer />
       </div>
     </div>
 
