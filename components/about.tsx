@@ -10,7 +10,7 @@ export default function about() {
             <Image src="/icons/line7.svg" alt="line" width={520} height={1} className="ml-4"/>
         </div>
         <div className="flex flex-row justify-between">
-            <div className="max-w-[315px] mt-8 text-(--gray)">
+            <div className="max-w-[415px] mt-8 text-(--gray)">
                 <p>Hello, i’m Faisal!
                     <br />
                     <br />
