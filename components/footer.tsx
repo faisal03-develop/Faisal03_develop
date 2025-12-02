@@ -7,7 +7,7 @@ export default function footer() {
         <div className='border-t-3 border-(--gray) py-8 flex flex-col justify-between md:flex-row md:items-center'>
             <div className="flex flex-col items-center md:items-start">
                 <div className="flex flex-col items-center max-w-120 md:flex-row">    
-                    <Image src="/icons/logo.svg" alt="logo" height={16} width={16} />
+                    <Image src="/icons/Logo.svg" alt="logo" height={16} width={16} />
                     <p className="ml-2">Faisal Altaf</p>
                     <p className="text-(--gray) ml-15 text-sm">altaffaisal532@gmail.com</p>
                 </div>

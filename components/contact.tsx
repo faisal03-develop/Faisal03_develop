@@ -31,7 +31,7 @@ export default function contact() {
           <p className="text-(--gray) hidden sm:block">altaffaisal532@gmail.com</p>
           </div>
           <div className="flex flex-row gap-4 items-center p-3">
-            <Image src="/icons/LinkedIn.svg" height={50} width={50} alt="LinkedIn"></Image>
+            <Image src="/icons/Linkedin.svg" height={50} width={50} alt="LinkedIn"></Image>
           <p className="text-(--gray) hidden sm:block">faisal03_linked</p>
           </div>
           <div className="flex flex-row gap-4 items-center p-3">
