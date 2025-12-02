@@ -9,7 +9,9 @@ type MobileMenuProps = {
 
 export default function mobile_menu({ onClose }: MobileMenuProps) {
   return (
-    <div className="absolute font-(family-name:--font-firaCode) top-0 left-0 right-0 bottom-0 bg-(--background) sm:hidden m-3">
+    <div className="fixed inset-0 z-50 sm:hidden bg-background/95 backdrop-blur p-4">
+      {/* inner panel so mobile spacing matches your previous design */}
+      <div className="max-w-sm mx-auto bg-transparent font-(family-name:--font-firaCode) h-full">
             <div className="w-sm flex flex-row justify-between">
             <div className="flex flex-row justify-between gap-2">
             <Image src="/icons/Logo.svg" alt="Logo" height={20} width={20} ></Image>
@@ -32,6 +34,7 @@ export default function mobile_menu({ onClose }: MobileMenuProps) {
                     <Link href="#" onClick={onClose}><Image src="/icons/Email.svg" alt="Email" height={40} width={40}></Image></Link>
                     <Link href="#" onClick={onClose}><Image src="/icons/Linkedin.svg" alt="Discord" height={40} width={40}></Image></Link>
                 </div>
+      </div>
     </div>
   )
 }

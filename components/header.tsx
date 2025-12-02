@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import Mobile_Menu from "@/components/mobile_menu";
 
 type HeaderProps = {
@@ -20,6 +20,28 @@ export default function header({ onOpen }: HeaderProps) {
     function closeMenu() {
         setOpen(false)
     }
+    const originalOverflow = useRef<string | null>(null)
+
+    useEffect(() => {
+        if (typeof document === 'undefined') return
+
+        if (open) {
+            if (originalOverflow.current === null) originalOverflow.current = document.body.style.overflow
+            document.body.style.overflow = 'hidden'
+        } else {
+            if (originalOverflow.current !== null) {
+                document.body.style.overflow = originalOverflow.current || ''
+                originalOverflow.current = null
+            }
+        }
+
+        return () => {
+            if (originalOverflow.current !== null) {
+                document.body.style.overflow = originalOverflow.current || ''
+                originalOverflow.current = null
+            }
+        }
+    }, [open])
   return (
     <div>
         <nav className="flex flex-row justify-between font-(family-name:--font-firaCode) pt-8 ">
