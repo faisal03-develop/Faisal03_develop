@@ -28,7 +28,7 @@ export default function projects() {
                     thickness={2}
                     style={{ borderRadius: 16 }}
                     >
-                        <Link href="https://primal-zoneclone.vercel.app/">
+                        <Link target="_blank" href="https://primal-zoneclone.vercel.app/">
                     <div className="p-4">
                         <p className="text-xl my-4">Primal Zone</p>
                         <Image src="/images/primalzone.png" alt="primal-zone" height={200} width={330} />
@@ -48,7 +48,7 @@ export default function projects() {
                     thickness={2}
                     style={{ borderRadius: 16 }}
                     >
-                        <Link href="https://ai-resume-checker-dusky.vercel.app/">
+                        <Link target="_blank" href="https://ai-resume-checker-dusky.vercel.app/">
                     <div className="p-4">
                         <p className="text-xl my-4">Resumind</p>
                         <Image src="/images/resumin.png" alt="Resumind" height={200} width={330} />
@@ -68,7 +68,7 @@ export default function projects() {
                     thickness={2}
                     style={{ borderRadius: 16 }}
                     >
-                        <Link href="https://primal-zoneclone.vercel.app/">
+                        <Link target="_blank" href="https://primal-zoneclone.vercel.app/">
                     <div className="p-4">
                         <p className="text-xl my-4">Primal Zone</p>
                         <Image src="/images/typing-tutor.png" alt="primal-zone" height={200} width={330} />
