@@ -12,7 +12,11 @@ import Footer from '@/components/footer'
 
 function page() {
   return (
-    <div className="mx-auto max-w-screen-lg px-4">
+    <div className="mx-auto px-4 
+        sm:max-w-screen-sm 
+        md:max-w-screen-md 
+        lg:max-w-screen-lg
+        ">
       <div className="bg-background">
           <Hanging />
           <Header />
