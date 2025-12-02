@@ -10,7 +10,7 @@ export default function contact() {
                   <p className="max-w-[250px]"><span className="text-(--primary)">#</span>Contact</p>
                   <Image src="/icons/line7.svg" alt="line" width={520} height={1} className="ml-4 hidden sm:block"/>
         </div>
-        <div className="flex flex-col md:flex-row justify-between mt-10 mb-20">
+        <div className="flex flex-col md:flex-row justify-between mt-5 md:mt-10 mb-20">
 
             <div className="max-w-[415px] mt-8 text-(--gray)">
           <p className="text-center sm:text-start">

@@ -16,7 +16,7 @@ export default function projects() {
         </div>
 
         {/* Primal-Zone */}
-        <div className="flex flex-col justify-center gap-16 sm:items-center sm:flex-row">
+        <div className="flex flex-col justify-center md:gap-16 sm:items-center sm:flex-row">
             <div className="w-80 h-[420px] mt-12">
                 <ElectricBorder
                     color="#C778DD"
@@ -37,7 +37,7 @@ export default function projects() {
             </div>
 
             {/* Resumind */}
-            <div className="w-80 h-[420px] mt-12">
+            <div className="w-80 h-[420px] md:mt-12">
                 <ElectricBorder
                     color="#C778DD"
                     speed={1}
@@ -57,7 +57,7 @@ export default function projects() {
             </div>
 
             {/* Typing-Tutor */}
-            <div className="w-80 h-[420px] mt-12">
+            <div className="w-80 h-[420px] md:mt-12">
                 <ElectricBorder
                     color="#C778DD"
                     speed={1}

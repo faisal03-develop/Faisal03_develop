@@ -7,12 +7,11 @@ const imageLogos = [
   { src: "/logos/js.png", alt: "javaScript", href: "#" },
   { src: "/logos/html.png", alt: "HTMl", href: "#" },
   { src: "/logos/css.png", alt: "CSS", href: "#" },
-  { src: "/logos/nodejs.png", alt: "nodejs", href: "#" },
-  { src: "/logos/c++.png", alt: "c++", href: "#" },
+  // { src: "/logos/c++.png", alt: "c++", href: "#" },
   { src: "/logos/react.png", alt: "react", href: "#" },
-  { src: "/logos/db.png", alt: "database", href: "#" },
+  { src: "/logos/mongodb.png", alt: "database", href: "#" },
   { src: "/logos/express.png", alt: "express", href: "#" },
-  { src: "/logos/nextjs.svg", alt: "Next", href: "#" },
+  { src: "/logos/next.jpg", alt: "Next", href: "#" },
 ];
 
 export default function App() {

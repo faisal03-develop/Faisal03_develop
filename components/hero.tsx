@@ -11,13 +11,13 @@ export default function hero() {
           typingSpeed={75}
           pauseDuration={1500}
           showCursor={true}
-          className="text-3xl font-bold"
+          className="font-bold text-2xl h-24 md:h-20 md:text-3xl"
           cursorCharacter="|"
         />
           <p className="text-(--gray) text-base mt-10">He crafts responsive websites where technologies meet creativity</p>
           <button className="border-2 bborder-solid border-primary) w-[152px] h-[37px] mt-6">Contact <span className="text-(--purple)">Me</span> !!!</button>
         </div>
-        <div className="max-h-[469px] max-w-[386px] relative " >
+        <div className="max-h-[469px] max-w-[386px] relative mt-20 sm:mt-0" >
           <div className="absolute w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40">
             <Image
               src="/icons/OutlineLogo.svg"
