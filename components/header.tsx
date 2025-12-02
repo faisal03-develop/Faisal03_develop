@@ -1,7 +1,25 @@
+"use client"
+
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
+import Mobile_Menu from "@/components/mobile_menu";
 
-export default function header() {
+type HeaderProps = {
+    onOpen?: () => void
+}
+
+export default function header({ onOpen }: HeaderProps) {
+    const [open, setOpen] = useState(false)
+
+    function openMenu() {
+        setOpen(true)
+        if (onOpen) onOpen()
+    }
+
+    function closeMenu() {
+        setOpen(false)
+    }
   return (
     <div>
         <nav className="flex flex-row justify-between font-(family-name:--font-firaCode) pt-8 ">
@@ -17,9 +35,12 @@ export default function header() {
                     <li><Link href='#contact'><span className="text-(--primary)">#</span>contacts</Link></li>
                 </ul>
             </div>
-            <div className="sm:hidden">
-                <Image src="/icons/menu.svg" alt="menu" height={24} width={24}></Image>
-            </div>
+                        <div className="sm:hidden">
+                                <button aria-label="Open mobile menu" onClick={openMenu} className="p-1">
+                                    <Image src="/icons/menu.svg" alt="menu" height={24} width={24}></Image>
+                                </button>
+                        </div>
+                        {open && <Mobile_Menu onClose={closeMenu} />}
         </nav>
     </div>
   )
