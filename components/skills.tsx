@@ -4,7 +4,7 @@ import Logolog from "./logolog"
 
 export default function skills() {
   return (
-    <div id="skill" className="font-(family-name:--font-firaCode) mt-4">
+    <div id="skill" className="font-(family-name:--font-firaCode) mt-4  ">
         <div className="flex flex-row justify-start sm:justify-center items-center text max-w-[701px] max-h-10 text-3xl">
             <p><span className="text-(--primary)">#</span>Skills</p>
             <Image src="/icons/line7.svg" alt="line" width={711} height={1} className="ml-4 hidden sm:block"/>

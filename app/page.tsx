@@ -8,16 +8,14 @@ import Skills from "@/components/skills"
 import About from "@/components/about"
 import Contact from "@/components/contact"
 import Footer from '@/components/footer'
+import Mobile_Menu from '@/components/mobile_menu'
 
 
 function page() {
   return (
-    <div className="mx-auto px-4 
-        sm:max-w-screen-sm 
-        md:max-w-screen-md 
-        lg:max-w-screen-lg
-        ">
+    <div className="mx-auto px-4 sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg">
       <div className="bg-background">
+          <Mobile_Menu />
           <Hanging />
           <Header />
           <Hero />
