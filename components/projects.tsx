@@ -16,7 +16,10 @@ export default function projects() {
         </div>
 
         {/* Primal-Zone */}
-        <div className="flex flex-col justify-center md:gap-16 sm:items-center sm:flex-row">
+        <div className="flex flex-col justify-center md:gap-16 sm:items-center sm:flex-row mx-auto px-4 
+        sm:max-w-screen-sm 
+        md:max-w-screen-md 
+        lg:max-w-screen-lg">
             <div className="w-80 h-[420px] mt-12">
                 <ElectricBorder
                     color="#C778DD"
