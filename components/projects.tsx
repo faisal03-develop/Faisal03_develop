@@ -8,7 +8,7 @@ export default function projects() {
         <div className="flex flex-row justify-between mr-4">
             <div className="flex flex-row justify-center items-center text max-w-[701px] max-h-10 text-3xl">
                 <h2><span className="text-(--primary)">    #</span>Projects</h2>
-                <Image src="/icons/line7.svg" alt="line" width={711} height={1} className="ml-2 hidden md:block"/>
+                <Image src="/icons/line.svg" alt="line" width={711} height={1} className="ml-2 hidden md:block"/>
             </div>
             <div>
                 <Link href="#">view all ~~&gt;</Link>

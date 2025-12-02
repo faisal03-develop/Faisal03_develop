@@ -5,7 +5,7 @@ export default function contact() {
     <div id="contact" className="font-(family-name:--font-firaCode) mx-auto">
         <div className="flex flex-row justify-start md:justify-center items-center text max-w-[701px] max-h-10 text-3xl">
                   <p className="max-w-[250px]"><span className="text-(--primary)">#</span>Contact</p>
-                  <Image src="/icons/Line7.svg" alt="line" width={520} height={1} className="ml-4 hidden md:block"/>
+                  <Image src="/icons/line.svg" alt="line" width={520} height={1} className="ml-4 hidden md:block"/>
         </div>
         <div className="flex flex-col md:flex-row justify-between mt-5 md:mt-10 mb-10">
 
