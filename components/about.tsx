@@ -4,7 +4,7 @@ import Spidy from "./spidy"
 
 export default function about() {
   return (
-    <div className="font-(family-name:--font-firaCode)">
+    <div id="about" className="font-(family-name:--font-firaCode)">
         <div className="flex flex-row justify-center items-center text max-w-[701px] max-h-10 text-3xl">
             <p className="max-w-[250px]"><span className="text-(--primary)">#</span>About Me</p>
             <Image src="/icons/line7.svg" alt="line" width={520} height={1} className="ml-4 hidden sm:block"/>

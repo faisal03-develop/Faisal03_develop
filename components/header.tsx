@@ -12,9 +12,9 @@ export default function header() {
             <div className="hidden sm:block">
                 <ul className="flex flex-row justify-center items-center gap-9 text-foreground">
                     <li><Link href='#'><span className="text-(--primary)">#</span>home</Link></li>
-                    <li><Link href='#'><span className="text-(--primary)">#</span>works</Link></li>
-                    <li><Link href='#'><span className="text-(--primary)">#</span>about-me</Link></li>
-                    <li><Link href='#'><span className="text-(--primary)">#</span>contacts</Link></li>
+                    <li><Link href='#projects'><span className="text-(--primary)">#</span>works</Link></li>
+                    <li><Link href='#about'><span className="text-(--primary)">#</span>about-me</Link></li>
+                    <li><Link href='#contact'><span className="text-(--primary)">#</span>contacts</Link></li>
                 </ul>
             </div>
             <div className="sm:hidden">

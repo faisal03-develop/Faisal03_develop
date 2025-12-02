@@ -4,7 +4,7 @@ import Link from "next/link"
 export default function footer() {
   return (
     <div className="font-(family-name:--font-firaCode)">
-        <div className='border-t-3 border-(--gray) py-8 flex flex-col justify-between md:flex-row md:items-center'>
+        <div className='border-t-3 border-(--gray) py-8 flex flex-col justify-between md:flex-row items-center'>
             <div className="flex flex-col items-center md:items-start">
                 <div className="flex flex-col items-center max-w-120 md:flex-row">    
                     <Image src="/icons/Logo.svg" alt="logo" height={16} width={16} />
