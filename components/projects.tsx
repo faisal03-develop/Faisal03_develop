@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import ElectricBorder from './ElectricBorder'
+import ProjectCard from "./projects/projectCard"
 
 export default function projects() {
   return (
@@ -17,66 +17,39 @@ export default function projects() {
 
         {/* Primal-Zone */}
         <div className="flex flex-col items-center md:justify-center md:gap-16 sm:items-center md:flex-row mx-auto px-4">
-            <div className="w-80 h-[420px] mt-12">
-                <ElectricBorder
-                    color="#C778DD"
-                    speed={1}
-                    chaos={0.5}
-                    thickness={2}
-                    style={{ borderRadius: 16 }}
-                    >
-                        <Link target="_blank" href="https://primal-zoneclone.vercel.app/">
-                    <div className="p-4">
-                        <p className="text-xl my-4">Primal Zone</p>
-                        <Image src="/images/primalzone.png" alt="primal-zone" height={200} width={330} />
-                        <p className="text-(--gray) text-sm py-3">Stack: NextJs, NodeJs, ExpressJs, PostGreSQL</p>
-                        <button className="my-3 w-75 cursor-pointer">Visit Site</button>
+        <div className="w-80 h-[420px] mt-12">
+
+            <ProjectCard 
+                        href="https://primal-zoneclone.vercel.app/"
+                        title="Primal Zone"
+                        image="/images/primalzone.png"
+                        stack={["NextJs", "NodeJs", "ExpressJs", "PostGreSQL"]}
+                    />
                     </div>
-                    </Link>
-                </ElectricBorder>
-            </div>
+            
 
             {/* Resumind */}
             <div className="w-80 h-[420px] md:mt-12">
-                <ElectricBorder
-                    color="#C778DD"
-                    speed={1}
-                    chaos={0.5}
-                    thickness={2}
-                    style={{ borderRadius: 16 }}
-                    >
-                        <Link target="_blank" href="https://ai-resume-checker-dusky.vercel.app/">
-                    <div className="p-4">
-                        <p className="text-xl my-4">Resumind</p>
-                        <Image src="/images/resumin.png" alt="Resumind" height={200} width={330} />
-                        <p className="text-(--gray) text-sm py-3">Stack: NextJs, NodeJs, ExpressJs, PostGreSQL</p>
-                        <button className="my-3 w-75 cursor-pointer">Visit Site</button>
-                    </div>
-                    </Link>
-                </ElectricBorder>
+                <ProjectCard 
+                    href="https://ai-resume-checker-dusky.vercel.app/"
+                    title="Resumind"
+                    image="/images/resumin.png"
+                    stack={['NextJs', 'NodeJs', 'ExpressJs', 'PostGreSQL']}
+                />
             </div>
 
             {/* Typing-Tutor */}
             <div className="w-80 h-[420px] md:mt-12">
-                <ElectricBorder
-                    color="#C778DD"
-                    speed={1}
-                    chaos={0.5}
-                    thickness={2}
-                    style={{ borderRadius: 16 }}
-                    >
-                        <Link target="_blank" href="https://primal-zoneclone.vercel.app/">
-                    <div className="p-4">
-                        <p className="text-xl my-4">Primal Zone</p>
-                        <Image src="/images/typing-tutor.png" alt="primal-zone" height={200} width={330} />
-                        <p className="text-(--gray) text-sm py-3">Stack: NextJs, NodeJs, ExpressJs, PostGreSQL</p>
-                        <button className="my-3 w-75 cursor-pointer">Visit Site</button>
-
-                    </div>
-                    </Link>
-                </ElectricBorder>
+                    <ProjectCard 
+                        href="https://typing-tutor-nine.vercel.app/"
+                        title="Typing Tutor"
+                        image="/images/typing-tutor.png"
+                        stack={["NextJs", "NodeJs", "ExpressJs", "PostGreSQL"]}
+                    />
             </div>
         </div>
+
+
     </div>
   )
 }
