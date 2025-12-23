@@ -1,6 +1,6 @@
 
 import Image from "next/image"
-import Spidy from "./spidy"
+// import Spidy from "./spidy"
 
 export default function about() {
   return (
@@ -10,7 +10,7 @@ export default function about() {
             <Image src="/icons/Line7.svg" alt="line" width={520} height={1} className="ml-4 hidden md:block"/>
         </div>
         <div className="flex flex-col justify-between md:flex-row">
-            <div className="max-w-[415px] mt-8 text-(--gray)">
+            <div className="max-w-[415px] mt-8 text-(--gray) mb-10">
                 <p className="text-center sm:text-start">Hello, i’m Faisal!
                     <br />
                     <br />
@@ -19,8 +19,16 @@ export default function about() {
                     <br />
                         Transforming my creativity and knowledge into a websites has been my passion for over two years. I have been helping various clients to establish their presence online. I always strive to learn about the newest technologies and frameworks.</p>
                 </div>
-                <div>  
-                    <Spidy />
+                <div className="flex justify-center md:justify-start mt-8">  
+                    <div className="w-78 h-78 rounded-full border-4 border-primary p-2 md:mr-15">
+                        <Image 
+                            src="/images/profile.jpg" 
+                            alt="Faisal Altaf" 
+                            width={192} 
+                            height={192} 
+                            className="w-full h-full rounded-full object-cover"
+                        />
+                    </div>
                 </div>
         </div>
 
