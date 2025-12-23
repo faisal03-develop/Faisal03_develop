@@ -60,9 +60,9 @@ export default function projects() {
 
             {/* Project 6 */}
             <ProjectCard 
-                href=""
-                title="Ghost Cursor"
-                image="/images/ghost.png"
+                href="https://faisal03-develop.github.io/sample/"
+                title="Portfolio Website"
+                image="/images/portfolio.jpg"
                 stack={["NextJs", "ReactJs", "TailwinsCSS", "TypeScript"]}
             />
         </div>
