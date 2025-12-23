@@ -15,38 +15,56 @@ export default function projects() {
             </div>
         </div>
 
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-2 gap-x-20 mt-12 max-w-6xl mx-auto px-4">
+        
         {/* Primal-Zone */}
-        <div className="flex flex-col items-center md:justify-center md:gap-16 sm:items-center md:flex-row mx-auto px-4">
-        <div className="w-80 h-[420px] mt-12">
-
             <ProjectCard 
-                        href="https://primal-zoneclone.vercel.app/"
-                        title="Primal Zone"
-                        image="/images/primalzone.png"
-                        stack={["NextJs", "NodeJs", "ExpressJs", "PostGreSQL"]}
-                    />
-                    </div>
+                href="https://primal-zoneclone.vercel.app/"
+                title="Primal Zone"
+                image="/images/primalzone.png"
+                stack={["NextJs", "NodeJs", "ExpressJs", "PostGreSQL"]}
+            />
             
 
             {/* Resumind */}
-            <div className="w-80 h-[420px] md:mt-12">
-                <ProjectCard 
-                    href="https://ai-resume-checker-dusky.vercel.app/"
-                    title="Resumind"
-                    image="/images/resumin.png"
-                    stack={['NextJs', 'NodeJs', 'ExpressJs', 'PostGreSQL']}
-                />
-            </div>
+            <ProjectCard 
+                href="https://ai-resume-checker-dusky.vercel.app/"
+                title="Resumind"
+                image="/images/resumin.png"
+                stack={['NextJs', 'NodeJs', 'ExpressJs', 'PostGreSQL']}
+            />
 
             {/* Typing-Tutor */}
-            <div className="w-80 h-[420px] md:mt-12">
-                    <ProjectCard 
-                        href="https://typing-tutor-nine.vercel.app/"
-                        title="Typing Tutor"
-                        image="/images/typing-tutor.png"
-                        stack={["NextJs", "NodeJs", "ExpressJs", "PostGreSQL"]}
-                    />
-            </div>
+            <ProjectCard 
+                href="https://typing-tutor-nine.vercel.app/"
+                title="Typing Tutor"
+                image="/images/typing-tutor.png"
+                stack={["NextJs", "NodeJs", "ExpressJs", "PostGreSQL"]}
+            />
+
+            {/* Project 4 */}
+            <ProjectCard 
+                href="#"
+                title="ERR Detection"
+                image="/images/ErrHome.png"
+                stack={["PHP", "Pyhton", "MySQL", "HTML CSS"]}
+            />
+
+            {/* Project 5 */}
+            <ProjectCard 
+                href="#"
+                title="Future Forge"
+                image="/images/futureforge.png"
+                stack={['PHP', 'AJAX', 'HTML CSS', 'MySQL', "JQuery"]}
+            />
+
+            {/* Project 6 */}
+            <ProjectCard 
+                href=""
+                title="Ghost Cursor"
+                image="/images/ghost.png"
+                stack={["NextJs", "ReactJs", "TailwinsCSS", "TypeScript"]}
+            />
         </div>
 
 
