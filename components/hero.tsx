@@ -30,7 +30,9 @@ export default function hero() {
             />
           </div>
 
+      <div className="z-2 md:w-[386px] md:h-[469px]">
             <Laptop />
+      </div>
           
           <Image
               src="/icons/Dots.svg"
