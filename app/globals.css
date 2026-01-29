@@ -139,3 +139,21 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+/* Prevent layout shifts and cascading reflows during component load */
+img, picture, video, canvas {
+  display: block;
+}
+
+/* Optimize containers to prevent cascading repaints */
+.contain-layout {
+  contain: layout;
+}
+
+.contain-paint {
+  contain: paint;
+}
+
+.contain-strict {
+  contain: strict;
+}

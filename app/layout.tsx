@@ -25,6 +25,9 @@ export default function RootLayout({
   return (
     
     <html lang="en" className={firaCode.className}>
+        <head>
+          <link rel="preload" href="https://prod.spline.design/EC0u9YUH5viaINhA/scene.splinecode" as="fetch" crossOrigin="anonymous" />
+        </head>
         <body
           className={`${firaCode.variable} ${firaCode.variable} antialiased`}
         >

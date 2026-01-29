@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Suspense } from "react";
 import TextType from './TextType';
 import Laptop from "./laptop";
 
@@ -22,17 +23,21 @@ export default function hero() {
             <Image
               src="/icons/OutlineLogo.svg"
               alt="Logo"
-              fill
+              width={160}
+              height={160}
+              priority
               className="object-contain"
             />
           </div>
 
-          <Laptop />
+            <Laptop />
+          
           <Image
               src="/icons/Dots.svg"
-              alt="Logo"
+              alt="Decorative dots"
               height={84}
               width={84}
+              priority
               className="
                 absolute bottom-15 right-15 sm:-right-15
                 w-12 h-12

@@ -12,13 +12,14 @@ interface ProjectCardProps {
 export default function ProjectCard({ href, title, image, stack }: ProjectCardProps) {
   return (
     <div className="w-80 h-[420px] mx-auto">
-      <ElectricBorder
+      {/* <ElectricBorder
         color="#C778DD"
         speed={1}
         chaos={0.5}
         thickness={2}
         style={{ borderRadius: 16 }}
-      >
+      > */}
+      <div className="border-2 border-(--primary) rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out">
         <Link target="_blank" href={href}>
           <div className="p-4">
             <p className="text-xl my-4">{title}</p>
@@ -27,7 +28,8 @@ export default function ProjectCard({ href, title, image, stack }: ProjectCardPr
             <button className="my-3 w-75 cursor-pointer">Visit Site</button>
           </div>
         </Link>
-      </ElectricBorder>
+      </div>
+      {/* </ElectricBorder> */}
     </div>
   )
 }

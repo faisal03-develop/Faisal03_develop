@@ -46,7 +46,7 @@ export default function header({ onOpen }: HeaderProps) {
     <div>
         <nav className="flex flex-row justify-between font-(family-name:--font-firaCode) pt-8 ">
             <div className="flex flex-row items-center gap-[8px] font-bold">
-                <Image src="/icons/Logo.svg" alt="Logo" width={16} height={16} />
+                <Image src="/icons/Logo.svg" alt="Logo" width={16} height={16} priority />
                 <h1 className="w-[120px] h-[21px] text-foreground">Faisal Altaf</h1>
             </div>
             <div className="hidden sm:block">
