@@ -34,12 +34,12 @@ export default function projects() {
                 stack={['NextJs', 'NodeJs', 'ExpressJs', 'PostGreSQL']}
             />
 
-            {/* Typing-Tutor */}
+            {/* Retrieval-Augmented-Reality */}
             <ProjectCard 
-                href="https://typing-tutor-nine.vercel.app/"
-                title="Typing Tutor"
-                image="/images/typing-tutor.png"
-                stack={["NextJs", "NodeJs", "ExpressJs", "PostGreSQL"]}
+                href="https://github.com/faisal03-develop/Retrieval-Augmented-Reality"
+                title="RAG ChatBot"
+                image="/images/rag2.png"
+                stack={["Python", "Streamlit", "LangChain", "ChromaDB"]}
             />
 
             {/* Project 4 */}
@@ -76,6 +76,4 @@ export default function projects() {
 
 // resumind:  https://ai-resume-checker-dusky.vercel.app/
 // Primal Zone:  https://primal-zoneclone.vercel.app/
-// Typing Tutor:  https://typing-tutor-nine.vercel.app/
-
-
+// Retrieval Augmented Reality:  https://github.com/faisal03-develop/Retrieval-Augmented-Reality
